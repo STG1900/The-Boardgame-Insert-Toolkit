@@ -319,6 +319,12 @@ value is expected to be a number, and determines the thickness of the lid label 
 #### `LID_LABELS_BORDER_THICKNESS`
 value is expected to be a number, and determines the thickness of the lid label border.  Default is 0.3 mm
 
+#### `LID_STRIPE_WIDTH`
+value is expected to be a number, and determines the thickness of the lines in the striped grid behind the label.  Default is 0.5 mm
+
+#### `LID_STRIPE_SPACE`
+value is expected to be a number, and determines the spacing of the lines in the striped grid behind the label.  Default is 1.0 mm
+
 #### `LID_HEIGHT`
 value is expected to be a number, and determines whether how deep the lid is. Default is 1mm for inset lids, and 2mm for cap lids.
 
@@ -455,6 +461,10 @@ e.g. `[ CMP_CUTOUT_TYPE, INTERIOR ]`
 value is expected to be a bool and determines whether the bottom of the compartment is cut out. Note that this is ignored if CMP_PEDESTAL_BASE_B is true or if CMP_SHAPE is set to FILLET.
 e.g. `[ CMP_CUTOUT_BOTTOM, true ]`
 
+#### `CMP_CUTOUT_BOTTOM_PCT` 
+value is expected to be an float between 0 and 100, and determines what percent of the box bottom is removed for bottom cutouts.  The default is 80. 
+e.g. `[ CMP_CUTOUT_BOTTOM_PCT, 90 ]`
+
 #### `CMP_CUTOUT_CORNERS_4B`
 value is expected to be an array of 4 bools, and determines whether finger cutouts are to be added to the compartments on the corners. The values represent [front-left, back-right, back-left, front-right ].  
 e.g. `[ CMP_CUTOUT_CORNERS_4B, [ t, t, f, f ] ]`
@@ -540,31 +550,34 @@ e.g. `[ ENABLED_B, f ]`
 - [7th Continent dividers]( https://www.thingiverse.com/thing:4223923)
 - [Architects of the West Kingdom](https://www.thingiverse.com/thing:3937497)
 - [Argent Consortium](https://www.thingiverse.com/thing:4549937)
-- [BattleLore Second Edition](https://www.thingiverse.com/thing:4798192)
+- [BattleLore Second Edition](https://www.printables.com/model/60472-battlelore-second-edition-insert)
 - [Bios: Megafauna](https://www.thingiverse.com/thing:3493660)
 - [Bios:Genesis](https://www.thingiverse.com/thing:3452368)
+- [Castle von Loghan](https://www.printables.com/model/233659-insert-for-castle-von-loghan)
 - [Comanchería]( https://www.thingiverse.com/thing:4187266)
 - [Dinosaur Island Deluxe Edition](https://www.thingiverse.com/thing:4015696)
 - [Dune]( https://www.thingiverse.com/thing:4403586 )
 - [Empyreal Spells & Steam]( https://www.thingiverse.com/thing:4554217 )
 - [Empyreal Spells % Steam](https://www.thingiverse.com/thing:4554217)
 - [Greenland/Neanderthal]( https://www.thingiverse.com/thing:3469793)
+- [Hadrian's Wall](https://www.printables.com/model/90472-insert-for-hadrians-wall-board-game)
 - [Happy Pigs](https://www.thingiverse.com/thing:4031037)
 - [High Frontier (3rd)]( https://www.thingiverse.com/thing:3482341)
 - [Indonesia (upgraded goods and ships )]( https://www.thingiverse.com/thing:3454636)
 - [Indonesia (upgraded goods)]( https://www.thingiverse.com/thing:3446879)
-- [Journeys in Middle-Earth Battle-Map](https://www.thingiverse.com/thing:3638987)
-- [Mansions of Madness 2nd edition persons container]( https://www.thingiverse.com/thing:3527361)
+- [Journeys in Middle-Earth Battle-Map Terrain box](https://www.printables.com/model/60425-journeys-in-middle-earth-battle-map-terrain-stuff)
+- [Maqui 2nd edition](https://www.printables.com/model/90469-insert-for-maqui-board-game-2nd-printing)
+- [Mansions of Madness 2nd edition persons container](https://www.printables.com/model/60421-mansions-of-madness-2nd-edition-persons-container)
 - [Mice and Mystics]( https://www.thingiverse.com/thing:3435429)
 - [Orleans]( https://www.thingiverse.com/thing:4493482 )
 - [Pandemic]( https://www.thingiverse.com/thing:3412724)
 - [Pax Emancipation]( https://www.thingiverse.com/thing:3450282)
 - [Pax Porfiriana (Collector's Edition)]( https://www.thingiverse.com/thing:3478944)
 - [Pax Renaissance]( https://www.thingiverse.com/thing:3479114)
-- [Root](https://www.thingiverse.com/thing:4798159)
+- [Root](https://www.printables.com/model/60470-root-insert-for-custom-miniatures)
 - [Space Hulk Death Angel](https://www.thingiverse.com/thing:4592270)
 - [Spyrium](https://www.thingiverse.com/thing:4010875)
-- [Star Trek" Frontiers]( https://www.thingiverse.com/thing:3538652)
+- [Star Trek: Frontiers](https://www.printables.com/model/60422-star-trek-frontiers)
 - [Stuffed Fables]( https://www.thingiverse.com/thing:3535505)
 - [Sword & Sorcery plus Expansions](https://www.thingiverse.com/thing:3699454)
 - [Sword & Sorcery]( https://www.thingiverse.com/thing:3515523)
